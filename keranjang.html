@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no" />
+        <!-- Site Metas -->
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="images/favicon.png" type="">
+        <title>Famms - Fashion HTML Template</title>
+        <!-- bootstrap core css -->
+        <link rel="stylesheet" type="text/css" href="css/keranjang.css" />
+        <!-- font awesome style -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet" />
+        <!-- responsive style -->
+        <link href="css/responsive.css" rel="stylesheet" />
+    </head>
+    <div class="mainscreen">
+        <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">-->
+        <div class="card">
+            <div class="leftside">
+                <img
+                    src="images/1e5c98f37196d182e8ad322a397611a3.jpg"
+                    class="product"
+                    alt="Shoes"
+                    />
+            </div>
+            <div class="rightside">
+                <form action="">
+                    <h1>Check out</h1>
+                    <h2>Informasi Pembayaran</h2>
+                    <p>Nama Anda</p>
+                    <input type="text" class="inputbox" name="name" required />
+                    <p>Jumlah Pembelian</p>
+                    <input type="number" class="inputbox" name="card_number"
+                        id="card_number" required />
+
+                    <p>Jenis Pembayaran</p>
+                    <select class="inputbox" name="card_type" id="card_type"
+                        required>
+                        <option value="">Pilih Jenis Pembayaran</option>
+                        <option value="Visa">Gopay</option>
+                        <option value="RuPay">ATM</option>
+                        <option value="MasterCard">DANA</option>
+                    </select>
+                    <div class="expcvv">
+
+                        <p class="expcvv_text">Expiry</p>
+                        <input type="date" class="inputbox" name="exp_date"
+                            id="exp_date" required />
+
+                        <p class="expcvv_text2">CVV</p>
+                        <input type="password" class="inputbox" name="cvv"
+                            id="cvv" required />
+                    </div>
+                    <p></p>
+                    <button type="submit" class="button">CheckOut</button>
+                </form>
+            </div>
+        </div>
+    </div>
